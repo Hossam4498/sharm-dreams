@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer components {
+  .section-container {
+    max-width: 80rem; /* max-w-7xl */
+    margin-left: auto; /* mx-auto */
+    margin-right: auto; /* mx-auto */
+    padding-left: 1rem; /* px-4 */
+    padding-right: 1rem; /* px-4 */
+  }
+
+  @media (min-width: 640px) {
+    .section-container {
+      padding-left: 2rem; /* sm:px-8 */
+      padding-right: 2rem; /* sm:px-8 */
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .section-container {
+      padding-left: 4rem; /* lg:px-16 */
+      padding-right: 4rem; /* lg:px-16 */
+    }
+  }
+}
